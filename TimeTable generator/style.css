@@ -1,0 +1,13 @@
+#container {
+    background: #4c4cff;
+    width: 30%;
+    opacity: 0.8;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+#header {
+    color: blue;
+    font-family: fantasy;
+}
