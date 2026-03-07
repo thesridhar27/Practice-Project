@@ -1,0 +1,119 @@
+.login-body {
+    background: #333;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.bg-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container {
+    width: 360px;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.7); /* Fallback if img is missing */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    border-radius: 14px;
+    border: 2px solid white;
+}
+
+.container h1 {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    color: #42d4f5;
+}
+
+.tbox {
+    width: 260px;
+    height: 40px;
+    background: #f1f1f1b3;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    margin: 15px auto;
+    transition: .25s;
+}
+
+.tbox input {
+    background: none;
+    border: none;
+    outline: none;
+    text-align: center;
+    width: 90%;
+    line-height: 37px;
+    font-size: 14px;
+}
+
+.tbox:hover {
+    border-color: #42d4f5;
+}
+
+.btn {
+    width: 260px;
+    height: 40px;
+    background: #42d4f5;
+    border-radius: 10px;
+    margin: 20px auto;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    background: #525354;
+}
+
+/* Modal Styling */
+.modal {
+    display: none; /* Hidden by default */
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    z-index: 2000;
+    width: 300px;
+    color: #333;
+}
+
+.modal img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+/* Link Styling */
+.b1, .b2 {
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #42d4f5;
+}
+
+.home-body {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding-top: 100px;
+    font-family: sans-serif;
+}
