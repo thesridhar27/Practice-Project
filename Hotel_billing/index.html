@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hotel Billing System</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🍽️ Hotel Billing System</h1>
+
+    <div class="menu">
+        <select id="item">
+            <option value="100">Fried Rice - ₹100</option>
+            <option value="120">Noodles - ₹120</option>
+            <option value="150">Pizza - ₹150</option>
+            <option value="80">Tea - ₹80</option>
+        </select>
+
+        <input type="number" id="qty" placeholder="Quantity" min="1">
+
+        <button onclick="addItem()">Add Item</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Qty</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody id="bill"></tbody>
+    </table>
+
+    <div class="total">
+        <p>Subtotal: ₹<span id="subtotal">0</span></p>
+        <p>GST (5%): ₹<span id="gst">0</span></p>
+        <h2>Grand Total: ₹<span id="grand">0</span></h2>
+    </div>
+
+    <button onclick="generateBill()">Generate Bill</button>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
